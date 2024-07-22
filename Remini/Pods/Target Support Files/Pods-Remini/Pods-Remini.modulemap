@@ -1,0 +1,6 @@
+framework module Pods_Remini {
+  umbrella header "Pods-Remini-umbrella.h"
+
+  export *
+  module * { export * }
+}

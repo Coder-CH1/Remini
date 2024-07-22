@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0446E31E2C4E9B08004E82A4 /* Remini--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0446E31D2C4E9B08004E82A4 /* Remini--Info.plist */; };
+		0446E31F2C4E9B08004E82A4 /* Remini--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0446E31D2C4E9B08004E82A4 /* Remini--Info.plist */; };
+		0446E3202C4E9B08004E82A4 /* Remini--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0446E31D2C4E9B08004E82A4 /* Remini--Info.plist */; };
+		04CEB4C32C4E767E00D980C2 /* ReminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4C22C4E767E00D980C2 /* ReminiApp.swift */; };
+		04CEB4C72C4E768400D980C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEB4C62C4E768400D980C2 /* Assets.xcassets */; };
+		04CEB4CA2C4E768400D980C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEB4C92C4E768400D980C2 /* Preview Assets.xcassets */; };
+		04CEB4D42C4E768500D980C2 /* ReminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4D32C4E768500D980C2 /* ReminiTests.swift */; };
+		04CEB4DE2C4E768500D980C2 /* ReminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4DD2C4E768500D980C2 /* ReminiUITests.swift */; };
+		04CEB4E02C4E768500D980C2 /* ReminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4DF2C4E768500D980C2 /* ReminiUITestsLaunchTests.swift */; };
+		04CEB4EF2C4E777A00D980C2 /* istockvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04CEB4EE2C4E777A00D980C2 /* istockvideo.mp4 */; };
+		04CEB4F12C4E779400D980C2 /* onboardingImg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04CEB4F02C4E779400D980C2 /* onboardingImg.mp4 */; };
+		04CEB4F32C4E77B300D980C2 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4F22C4E77B300D980C2 /* HomePageView.swift */; };
+		04CEB4F52C4E780600D980C2 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4F42C4E780600D980C2 /* AppCoordinator.swift */; };
+		04CEB4F72C4E782E00D980C2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4F62C4E782E00D980C2 /* SplashView.swift */; };
+		04CEB4F92C4E785F00D980C2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4F82C4E785F00D980C2 /* OnboardingView.swift */; };
+		04CEB4FB2C4E788C00D980C2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4FA2C4E788C00D980C2 /* WelcomeView.swift */; };
+		04CEB4FD2C4E78C100D980C2 /* FirstImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4FC2C4E78C100D980C2 /* FirstImageView.swift */; };
+		04CEB4FF2C4E78E400D980C2 /* SecondImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB4FE2C4E78E400D980C2 /* SecondImageView.swift */; };
+		04CEB5012C4E78FA00D980C2 /* ThirdImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5002C4E78FA00D980C2 /* ThirdImageView.swift */; };
+		04CEB5032C4E793100D980C2 /* YellowToonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5022C4E793100D980C2 /* YellowToonView.swift */; };
+		04CEB5052C4E795600D980C2 /* VideoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5042C4E795600D980C2 /* VideoDetailsView.swift */; };
+		04CEB5072C4E799300D980C2 /* AIPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5062C4E799300D980C2 /* AIPhotosView.swift */; };
+		04CEB5092C4E79C100D980C2 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5082C4E79C100D980C2 /* ExploreView.swift */; };
+		04CEB50B2C4E79EE00D980C2 /* AIFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB50A2C4E79EE00D980C2 /* AIFiltersView.swift */; };
+		04CEB50D2C4E7A1100D980C2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB50C2C4E7A1100D980C2 /* SettingsView.swift */; };
+		04CEB50F2C4E7A3300D980C2 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB50E2C4E7A3300D980C2 /* PromoView.swift */; };
+		04CEB5112C4E7A5D00D980C2 /* TransformedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5102C4E7A5D00D980C2 /* TransformedImageView.swift */; };
+		04CEB5132C4E7A8500D980C2 /* VideoTransformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5122C4E7A8500D980C2 /* VideoTransformationView.swift */; };
+		04CEB5152C4E7AAC00D980C2 /* VideoLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5142C4E7AAC00D980C2 /* VideoLibraryView.swift */; };
+		04CEB5172C4E7ADB00D980C2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5162C4E7ADB00D980C2 /* Model.swift */; };
+		04CEB5192C4E7B0200D980C2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB5182C4E7B0200D980C2 /* Networking.swift */; };
+		04CEB51B2C4E7B2500D980C2 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB51A2C4E7B2500D980C2 /* CustomFonts.swift */; };
+		175022F17FB701247E394FB5 /* Pods_Remini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60A25EAEE8AD7E1FB0506B5 /* Pods_Remini.framework */; };
+		20F1DCE3CE01FADD9F2AA1D9 /* Pods_ReminiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513BD2C5077A058D940A8EF2 /* Pods_ReminiTests.framework */; };
+		837716C30B7601E4E37349F0 /* Pods_Remini_ReminiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC212EB62A0CA1D2E42A775 /* Pods_Remini_ReminiUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CEB4D02C4E768500D980C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEB4B72C4E767E00D980C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEB4BE2C4E767E00D980C2;
+			remoteInfo = Remini;
+		};
+		04CEB4DA2C4E768500D980C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEB4B72C4E767E00D980C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEB4BE2C4E767E00D980C2;
+			remoteInfo = Remini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0446E31D2C4E9B08004E82A4 /* Remini--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Remini--Info.plist"; sourceTree = "<group>"; };
+		04CEB4BF2C4E767E00D980C2 /* Remini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEB4C22C4E767E00D980C2 /* ReminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminiApp.swift; sourceTree = "<group>"; };
+		04CEB4C62C4E768400D980C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CEB4C92C4E768400D980C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04CEB4CF2C4E768500D980C2 /* ReminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEB4D32C4E768500D980C2 /* ReminiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminiTests.swift; sourceTree = "<group>"; };
+		04CEB4D92C4E768500D980C2 /* ReminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEB4DD2C4E768500D980C2 /* ReminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminiUITests.swift; sourceTree = "<group>"; };
+		04CEB4DF2C4E768500D980C2 /* ReminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04CEB4EE2C4E777A00D980C2 /* istockvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = istockvideo.mp4; sourceTree = "<group>"; };
+		04CEB4F02C4E779400D980C2 /* onboardingImg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onboardingImg.mp4; sourceTree = "<group>"; };
+		04CEB4F22C4E77B300D980C2 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		04CEB4F42C4E780600D980C2 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		04CEB4F62C4E782E00D980C2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		04CEB4F82C4E785F00D980C2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		04CEB4FA2C4E788C00D980C2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		04CEB4FC2C4E78C100D980C2 /* FirstImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstImageView.swift; sourceTree = "<group>"; };
+		04CEB4FE2C4E78E400D980C2 /* SecondImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondImageView.swift; sourceTree = "<group>"; };
+		04CEB5002C4E78FA00D980C2 /* ThirdImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdImageView.swift; sourceTree = "<group>"; };
+		04CEB5022C4E793100D980C2 /* YellowToonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowToonView.swift; sourceTree = "<group>"; };
+		04CEB5042C4E795600D980C2 /* VideoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsView.swift; sourceTree = "<group>"; };
+		04CEB5062C4E799300D980C2 /* AIPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPhotosView.swift; sourceTree = "<group>"; };
+		04CEB5082C4E79C100D980C2 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		04CEB50A2C4E79EE00D980C2 /* AIFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFiltersView.swift; sourceTree = "<group>"; };
+		04CEB50C2C4E7A1100D980C2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		04CEB50E2C4E7A3300D980C2 /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
+		04CEB5102C4E7A5D00D980C2 /* TransformedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformedImageView.swift; sourceTree = "<group>"; };
+		04CEB5122C4E7A8500D980C2 /* VideoTransformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTransformationView.swift; sourceTree = "<group>"; };
+		04CEB5142C4E7AAC00D980C2 /* VideoLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLibraryView.swift; sourceTree = "<group>"; };
+		04CEB5162C4E7ADB00D980C2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		04CEB5182C4E7B0200D980C2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		04CEB51A2C4E7B2500D980C2 /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		4CC212EB62A0CA1D2E42A775 /* Pods_Remini_ReminiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Remini_ReminiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		513BD2C5077A058D940A8EF2 /* Pods_ReminiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582A5F66DA3430B4333A8256 /* Pods-Remini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remini.debug.xcconfig"; path = "Target Support Files/Pods-Remini/Pods-Remini.debug.xcconfig"; sourceTree = "<group>"; };
+		86DF2B6B468D6436674DF086 /* Pods-Remini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remini.release.xcconfig"; path = "Target Support Files/Pods-Remini/Pods-Remini.release.xcconfig"; sourceTree = "<group>"; };
+		87642CB2EAAE77F3076B88B1 /* Pods-ReminiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminiTests.release.xcconfig"; path = "Target Support Files/Pods-ReminiTests/Pods-ReminiTests.release.xcconfig"; sourceTree = "<group>"; };
+		B46BF4F5CC0A3E8490E40F2C /* Pods-ReminiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminiTests.debug.xcconfig"; path = "Target Support Files/Pods-ReminiTests/Pods-ReminiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E65EFE23808646C79901F6 /* Pods-Remini-ReminiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remini-ReminiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Remini-ReminiUITests/Pods-Remini-ReminiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA716C13ED4FF32EA3A46C2E /* Pods-Remini-ReminiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remini-ReminiUITests.release.xcconfig"; path = "Target Support Files/Pods-Remini-ReminiUITests/Pods-Remini-ReminiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F60A25EAEE8AD7E1FB0506B5 /* Pods_Remini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Remini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CEB4BC2C4E767E00D980C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175022F17FB701247E394FB5 /* Pods_Remini.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEB4CC2C4E768500D980C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F1DCE3CE01FADD9F2AA1D9 /* Pods_ReminiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEB4D62C4E768500D980C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837716C30B7601E4E37349F0 /* Pods_Remini_ReminiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CEB4B62C4E767E00D980C2 = {
+			isa = PBXGroup;
+			children = (
+				04CEB4C12C4E767E00D980C2 /* Remini */,
+				04CEB4D22C4E768500D980C2 /* ReminiTests */,
+				04CEB4DC2C4E768500D980C2 /* ReminiUITests */,
+				04CEB4C02C4E767E00D980C2 /* Products */,
+				9AD9F3A014CA81DDD6D5F197 /* Pods */,
+				9662DE52CF4D9DACB3CB232A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CEB4C02C4E767E00D980C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4BF2C4E767E00D980C2 /* Remini.app */,
+				04CEB4CF2C4E768500D980C2 /* ReminiTests.xctest */,
+				04CEB4D92C4E768500D980C2 /* ReminiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CEB4C12C4E767E00D980C2 /* Remini */ = {
+			isa = PBXGroup;
+			children = (
+				0446E31D2C4E9B08004E82A4 /* Remini--Info.plist */,
+				04CEB4F02C4E779400D980C2 /* onboardingImg.mp4 */,
+				04CEB4EE2C4E777A00D980C2 /* istockvideo.mp4 */,
+				04CEB4C22C4E767E00D980C2 /* ReminiApp.swift */,
+				04D024722C4E7D3C00B48613 /* AppCoordinator */,
+				04D024732C4E7D5100B48613 /* SplashView */,
+				04D024742C4E7D6100B48613 /* OnboardingView */,
+				04D024762C4E7DAA00B48613 /* HomePageView */,
+				04CEB4C62C4E768400D980C2 /* Assets.xcassets */,
+				04CEB4C82C4E768400D980C2 /* Preview Content */,
+				04D024782C4E7DF500B48613 /* NetworkingManager */,
+				04D024792C4E7E0900B48613 /* CustomFonts */,
+			);
+			path = Remini;
+			sourceTree = "<group>";
+		};
+		04CEB4C82C4E768400D980C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4C92C4E768400D980C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04CEB4D22C4E768500D980C2 /* ReminiTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4D32C4E768500D980C2 /* ReminiTests.swift */,
+			);
+			path = ReminiTests;
+			sourceTree = "<group>";
+		};
+		04CEB4DC2C4E768500D980C2 /* ReminiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4DD2C4E768500D980C2 /* ReminiUITests.swift */,
+				04CEB4DF2C4E768500D980C2 /* ReminiUITestsLaunchTests.swift */,
+			);
+			path = ReminiUITests;
+			sourceTree = "<group>";
+		};
+		04D024722C4E7D3C00B48613 /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4F42C4E780600D980C2 /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		04D024732C4E7D5100B48613 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4F62C4E782E00D980C2 /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		04D024742C4E7D6100B48613 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4F82C4E785F00D980C2 /* OnboardingView.swift */,
+				04D024752C4E7D7E00B48613 /* OnboardingSubViews */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		04D024752C4E7D7E00B48613 /* OnboardingSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4FA2C4E788C00D980C2 /* WelcomeView.swift */,
+				04CEB4FC2C4E78C100D980C2 /* FirstImageView.swift */,
+				04CEB4FE2C4E78E400D980C2 /* SecondImageView.swift */,
+				04CEB5002C4E78FA00D980C2 /* ThirdImageView.swift */,
+			);
+			path = OnboardingSubViews;
+			sourceTree = "<group>";
+		};
+		04D024762C4E7DAA00B48613 /* HomePageView */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB4F22C4E77B300D980C2 /* HomePageView.swift */,
+				04D024772C4E7DBE00B48613 /* HomePageSubViews */,
+			);
+			path = HomePageView;
+			sourceTree = "<group>";
+		};
+		04D024772C4E7DBE00B48613 /* HomePageSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB5022C4E793100D980C2 /* YellowToonView.swift */,
+				04CEB5042C4E795600D980C2 /* VideoDetailsView.swift */,
+				04CEB5062C4E799300D980C2 /* AIPhotosView.swift */,
+				04CEB5082C4E79C100D980C2 /* ExploreView.swift */,
+				04CEB50A2C4E79EE00D980C2 /* AIFiltersView.swift */,
+				04CEB50E2C4E7A3300D980C2 /* PromoView.swift */,
+				04CEB50C2C4E7A1100D980C2 /* SettingsView.swift */,
+				04CEB5102C4E7A5D00D980C2 /* TransformedImageView.swift */,
+				04CEB5122C4E7A8500D980C2 /* VideoTransformationView.swift */,
+				04CEB5142C4E7AAC00D980C2 /* VideoLibraryView.swift */,
+			);
+			path = HomePageSubViews;
+			sourceTree = "<group>";
+		};
+		04D024782C4E7DF500B48613 /* NetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB5162C4E7ADB00D980C2 /* Model.swift */,
+				04CEB5182C4E7B0200D980C2 /* Networking.swift */,
+			);
+			path = NetworkingManager;
+			sourceTree = "<group>";
+		};
+		04D024792C4E7E0900B48613 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB51A2C4E7B2500D980C2 /* CustomFonts.swift */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		9662DE52CF4D9DACB3CB232A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F60A25EAEE8AD7E1FB0506B5 /* Pods_Remini.framework */,
+				4CC212EB62A0CA1D2E42A775 /* Pods_Remini_ReminiUITests.framework */,
+				513BD2C5077A058D940A8EF2 /* Pods_ReminiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD9F3A014CA81DDD6D5F197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				582A5F66DA3430B4333A8256 /* Pods-Remini.debug.xcconfig */,
+				86DF2B6B468D6436674DF086 /* Pods-Remini.release.xcconfig */,
+				B6E65EFE23808646C79901F6 /* Pods-Remini-ReminiUITests.debug.xcconfig */,
+				EA716C13ED4FF32EA3A46C2E /* Pods-Remini-ReminiUITests.release.xcconfig */,
+				B46BF4F5CC0A3E8490E40F2C /* Pods-ReminiTests.debug.xcconfig */,
+				87642CB2EAAE77F3076B88B1 /* Pods-ReminiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CEB4BE2C4E767E00D980C2 /* Remini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEB4E32C4E768500D980C2 /* Build configuration list for PBXNativeTarget "Remini" */;
+			buildPhases = (
+				599F75BBC419DD53675C4907 /* [CP] Check Pods Manifest.lock */,
+				04CEB4BB2C4E767E00D980C2 /* Sources */,
+				04CEB4BC2C4E767E00D980C2 /* Frameworks */,
+				04CEB4BD2C4E767E00D980C2 /* Resources */,
+				68DD19FACC2B71C5DFF2FAA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remini;
+			productName = Remini;
+			productReference = 04CEB4BF2C4E767E00D980C2 /* Remini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CEB4CE2C4E768500D980C2 /* ReminiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEB4E62C4E768500D980C2 /* Build configuration list for PBXNativeTarget "ReminiTests" */;
+			buildPhases = (
+				5290E1ACB8218D012765772A /* [CP] Check Pods Manifest.lock */,
+				04CEB4CB2C4E768500D980C2 /* Sources */,
+				04CEB4CC2C4E768500D980C2 /* Frameworks */,
+				04CEB4CD2C4E768500D980C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEB4D12C4E768500D980C2 /* PBXTargetDependency */,
+			);
+			name = ReminiTests;
+			productName = ReminiTests;
+			productReference = 04CEB4CF2C4E768500D980C2 /* ReminiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CEB4D82C4E768500D980C2 /* ReminiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEB4E92C4E768500D980C2 /* Build configuration list for PBXNativeTarget "ReminiUITests" */;
+			buildPhases = (
+				457ADF23F58227C8F5493EC7 /* [CP] Check Pods Manifest.lock */,
+				04CEB4D52C4E768500D980C2 /* Sources */,
+				04CEB4D62C4E768500D980C2 /* Frameworks */,
+				04CEB4D72C4E768500D980C2 /* Resources */,
+				379A4B605F1B881FFDCEAEC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEB4DB2C4E768500D980C2 /* PBXTargetDependency */,
+			);
+			name = ReminiUITests;
+			productName = ReminiUITests;
+			productReference = 04CEB4D92C4E768500D980C2 /* ReminiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CEB4B72C4E767E00D980C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04CEB4BE2C4E767E00D980C2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04CEB4CE2C4E768500D980C2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04CEB4BE2C4E767E00D980C2;
+					};
+					04CEB4D82C4E768500D980C2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04CEB4BE2C4E767E00D980C2;
+					};
+				};
+			};
+			buildConfigurationList = 04CEB4BA2C4E767E00D980C2 /* Build configuration list for PBXProject "Remini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CEB4B62C4E767E00D980C2;
+			productRefGroup = 04CEB4C02C4E767E00D980C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CEB4BE2C4E767E00D980C2 /* Remini */,
+				04CEB4CE2C4E768500D980C2 /* ReminiTests */,
+				04CEB4D82C4E768500D980C2 /* ReminiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CEB4BD2C4E767E00D980C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446E31E2C4E9B08004E82A4 /* Remini--Info.plist in Resources */,
+				04CEB4CA2C4E768400D980C2 /* Preview Assets.xcassets in Resources */,
+				04CEB4C72C4E768400D980C2 /* Assets.xcassets in Resources */,
+				04CEB4EF2C4E777A00D980C2 /* istockvideo.mp4 in Resources */,
+				04CEB4F12C4E779400D980C2 /* onboardingImg.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEB4CD2C4E768500D980C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446E31F2C4E9B08004E82A4 /* Remini--Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEB4D72C4E768500D980C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446E3202C4E9B08004E82A4 /* Remini--Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		379A4B605F1B881FFDCEAEC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Remini-ReminiUITests/Pods-Remini-ReminiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Remini-ReminiUITests/Pods-Remini-ReminiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Remini-ReminiUITests/Pods-Remini-ReminiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457ADF23F58227C8F5493EC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Remini-ReminiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5290E1ACB8218D012765772A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReminiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		599F75BBC419DD53675C4907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Remini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DD19FACC2B71C5DFF2FAA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Remini/Pods-Remini-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Remini/Pods-Remini-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Remini/Pods-Remini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CEB4BB2C4E767E00D980C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEB5172C4E7ADB00D980C2 /* Model.swift in Sources */,
+				04CEB5192C4E7B0200D980C2 /* Networking.swift in Sources */,
+				04CEB5092C4E79C100D980C2 /* ExploreView.swift in Sources */,
+				04CEB4F52C4E780600D980C2 /* AppCoordinator.swift in Sources */,
+				04CEB4F72C4E782E00D980C2 /* SplashView.swift in Sources */,
+				04CEB4F92C4E785F00D980C2 /* OnboardingView.swift in Sources */,
+				04CEB5132C4E7A8500D980C2 /* VideoTransformationView.swift in Sources */,
+				04CEB50F2C4E7A3300D980C2 /* PromoView.swift in Sources */,
+				04CEB5072C4E799300D980C2 /* AIPhotosView.swift in Sources */,
+				04CEB4F32C4E77B300D980C2 /* HomePageView.swift in Sources */,
+				04CEB5112C4E7A5D00D980C2 /* TransformedImageView.swift in Sources */,
+				04CEB4FF2C4E78E400D980C2 /* SecondImageView.swift in Sources */,
+				04CEB5012C4E78FA00D980C2 /* ThirdImageView.swift in Sources */,
+				04CEB50D2C4E7A1100D980C2 /* SettingsView.swift in Sources */,
+				04CEB50B2C4E79EE00D980C2 /* AIFiltersView.swift in Sources */,
+				04CEB51B2C4E7B2500D980C2 /* CustomFonts.swift in Sources */,
+				04CEB5032C4E793100D980C2 /* YellowToonView.swift in Sources */,
+				04CEB4FD2C4E78C100D980C2 /* FirstImageView.swift in Sources */,
+				04CEB5152C4E7AAC00D980C2 /* VideoLibraryView.swift in Sources */,
+				04CEB5052C4E795600D980C2 /* VideoDetailsView.swift in Sources */,
+				04CEB4C32C4E767E00D980C2 /* ReminiApp.swift in Sources */,
+				04CEB4FB2C4E788C00D980C2 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEB4CB2C4E768500D980C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEB4D42C4E768500D980C2 /* ReminiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEB4D52C4E768500D980C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEB4E02C4E768500D980C2 /* ReminiUITestsLaunchTests.swift in Sources */,
+				04CEB4DE2C4E768500D980C2 /* ReminiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CEB4D12C4E768500D980C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEB4BE2C4E767E00D980C2 /* Remini */;
+			targetProxy = 04CEB4D02C4E768500D980C2 /* PBXContainerItemProxy */;
+		};
+		04CEB4DB2C4E768500D980C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEB4BE2C4E767E00D980C2 /* Remini */;
+			targetProxy = 04CEB4DA2C4E768500D980C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04CEB4E12C4E768500D980C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CEB4E22C4E768500D980C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CEB4E42C4E768500D980C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582A5F66DA3430B4333A8256 /* Pods-Remini.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remini/Preview Content\"";
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remini/Remini--Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Remini to access photos and media on your device?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chidiogo.Remini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CEB4E52C4E768500D980C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DF2B6B468D6436674DF086 /* Pods-Remini.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remini/Preview Content\"";
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remini/Remini--Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Remini to access photos and media on your device?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chidiogo.Remini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CEB4E72C4E768500D980C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46BF4F5CC0A3E8490E40F2C /* Pods-ReminiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chidiogo.ReminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remini";
+			};
+			name = Debug;
+		};
+		04CEB4E82C4E768500D980C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87642CB2EAAE77F3076B88B1 /* Pods-ReminiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chidiogo.ReminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remini";
+			};
+			name = Release;
+		};
+		04CEB4EA2C4E768500D980C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E65EFE23808646C79901F6 /* Pods-Remini-ReminiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chidiogo.ReminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Remini;
+			};
+			name = Debug;
+		};
+		04CEB4EB2C4E768500D980C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA716C13ED4FF32EA3A46C2E /* Pods-Remini-ReminiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFJ8H3MDYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chidiogo.ReminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Remini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CEB4BA2C4E767E00D980C2 /* Build configuration list for PBXProject "Remini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEB4E12C4E768500D980C2 /* Debug */,
+				04CEB4E22C4E768500D980C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEB4E32C4E768500D980C2 /* Build configuration list for PBXNativeTarget "Remini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEB4E42C4E768500D980C2 /* Debug */,
+				04CEB4E52C4E768500D980C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEB4E62C4E768500D980C2 /* Build configuration list for PBXNativeTarget "ReminiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEB4E72C4E768500D980C2 /* Debug */,
+				04CEB4E82C4E768500D980C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEB4E92C4E768500D980C2 /* Build configuration list for PBXNativeTarget "ReminiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEB4EA2C4E768500D980C2 /* Debug */,
+				04CEB4EB2C4E768500D980C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CEB4B72C4E767E00D980C2 /* Project object */;
+}

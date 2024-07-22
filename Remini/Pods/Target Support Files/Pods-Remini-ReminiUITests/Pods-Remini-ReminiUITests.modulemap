@@ -1,0 +1,6 @@
+framework module Pods_Remini_ReminiUITests {
+  umbrella header "Pods-Remini-ReminiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
