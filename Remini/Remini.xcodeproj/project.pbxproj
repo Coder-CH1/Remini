@@ -728,6 +728,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Remini/Preview Content\"";
 				DEVELOPMENT_TEAM = SFJ8H3MDYC;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BottomSheetSwiftUI\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift\"",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Remini/Remini--Info.plist";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Remini to access photos and media on your device?";
@@ -760,6 +766,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Remini/Preview Content\"";
 				DEVELOPMENT_TEAM = SFJ8H3MDYC;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BottomSheetSwiftUI\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift\"",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Remini/Remini--Info.plist";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Remini to access photos and media on your device?";
