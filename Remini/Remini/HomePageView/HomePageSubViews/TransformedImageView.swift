@@ -9,8 +9,7 @@ import SwiftUI
 import CoreImage
 import UIKit
 import Photos
-import SwiftSyft
-//import LibTorch_Lite
+import CoreML
 
 struct TransformedImageView: View {
     @Binding var selectedImages: [UIImage]

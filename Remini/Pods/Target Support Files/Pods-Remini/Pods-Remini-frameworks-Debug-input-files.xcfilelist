@@ -1,6 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-Remini/Pods-Remini-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/BottomSheetSwiftUI/BottomSheetSwiftUI.framework
-${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
-${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework
