@@ -6,10 +6,10 @@
 //
 
 import SwiftUI
-import CoreImage
 import UIKit
 import Photos
 import CoreML
+import Vision
 
 struct TransformedImageView: View {
     @Binding var selectedImages: [UIImage]
