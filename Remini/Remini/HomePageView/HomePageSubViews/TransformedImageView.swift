@@ -14,6 +14,10 @@ import Vision
 struct TransformedImageView: View {
     @Binding var selectedImages: [UIImage]
     @State var filteredImages: [UIImage] = []
+//    func saveFilteredImageToPhotoLib() {
+//        UIImageWriteToSavedPhotosAlbum(selectedImages, nil, nil, nil)
+//        self.isSaved = true
+//    }
     let columns = [
         GridItem(.flexible(), spacing: 20, alignment: .center),
         GridItem(.flexible(), spacing: 20, alignment: .center),
@@ -60,6 +64,12 @@ struct FilteredPickForTwoView: View {
     @Binding var selectedImage1: UIImage?
     @Binding var selectedImage2: UIImage?
     @State var combinedImage: UIImage?
+    @State var isSaved: Bool = false
+    
+    func saveFilteredImageToPhotoLib() {
+        UIImageWriteToSavedPhotosAlbum(selectedImage1!, selectedImage2, nil, nil)
+        self.isSaved = true
+    }
     
     var body: some View {
         VStack {
@@ -113,10 +123,6 @@ struct EnhancedModalImage: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: UIScreen.main.bounds.width, height: 100)
-            } else {
-                ProgressView("Enhancing image...")
-                    .progressViewStyle(CircularProgressViewStyle())
-                    .foregroundColor(.white)
             }
         }
         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
