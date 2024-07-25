@@ -24,6 +24,13 @@ struct TransformedImageView: View {
         GridItem(.flexible(), spacing: 20, alignment: .center),
         GridItem(.flexible(), spacing: 20, alignment: .center),
     ]
+    
+    //    func generateTransformedImages() {
+    //        guard let modelUrl = Bundle.main.url(forResource: "", withExtension: "mlmodel"),
+    //              let model = try? VNCoreMLModel(for: MLModel(contentsOf: modelUrl)) else {
+    //            fatalError("failed to load CoreML model")
+    //        }
+    //    }
 
     var body: some View {
         VStack {
@@ -74,6 +81,14 @@ struct FilteredPickForTwoView: View {
         UIImageWriteToSavedPhotosAlbum(selectedImage1!, selectedImage2, nil, nil)
         self.isSaved = true
     }
+    
+    //    func generateEnhancedJoinedImage() {
+    //        guard let modelUrl = Bundle.main.url(forResource: "", withExtension: "mlmodel"),
+    //              let model = try? VNCoreMLModel(for: MLModel(contentsOf: modelUrl)) else {
+    //            fatalError("failed to load CoreML model")
+    //        }
+    //    }
+    //
 
     var body: some View {
         VStack {
@@ -116,6 +131,13 @@ struct EnhancedModalImage: View {
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
         self.isSaved = true
     }
+    
+    //    func generateEnhancedImage() {
+    //        guard let modelUrl = Bundle.main.url(forResource: "", withExtension: "mlmodel"),
+    //              let model = try? VNCoreMLModel(for: MLModel(contentsOf: modelUrl)) else {
+    //            fatalError("failed to load CoreML model")
+    //        }
+    //    }
 
     var body: some View {
         VStack(spacing: 30) {
