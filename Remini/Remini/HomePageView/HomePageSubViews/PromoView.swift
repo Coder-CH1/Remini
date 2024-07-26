@@ -14,7 +14,6 @@ struct PromoView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Button {
-                print("btn tapped")
                 presentationMode.wrappedValue.dismiss()
                 showNewView.toggle()
             } label: {
